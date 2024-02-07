@@ -1,17 +1,12 @@
 from cryptography.hazmat.primitives import padding
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.backends import default_backend
-import random
-import ast
 import base64
 import secrets
 from Bio import SeqIO
 import Bio
 import cv2
 import pytesseract
-import time
-import matplotlib.pyplot as plt
-
 
 def rotate_crossover(dna_sequence, rotation_offset):
     rotated_sequence = dna_sequence[-rotation_offset:] + \
