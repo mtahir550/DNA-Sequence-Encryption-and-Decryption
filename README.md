@@ -1,5 +1,5 @@
 
-# DNA Sequence Manipulation and Encryption Script
+# Requirements and Usage Instructions
 
 ## Introduction
 This Python script provides advanced functionalities for DNA sequence manipulation and encryption. It's designed for bioinformatics applications requiring secure handling of DNA data and includes features for DNA sequence processing, AES encryption/decryption, and character extraction from images using OCR.
